@@ -1,7 +1,7 @@
 import { gql } from "graphql-request"
 
-const DEVELOPER_LIST = gql`query developersList{
-    developers{
+const DEVELOPER_LIST = gql`query employees{
+    employee{
       id
       name
     }

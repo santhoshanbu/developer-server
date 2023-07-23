@@ -13,7 +13,7 @@ const GetRoutes = async (req,res) => {
     try {
        const response = await client.request(DEVELOPER_LIST)
        console.log(response)
-        res.send(response.developers)
+        res.send(response.employee)
     } catch (error) {
         console.log(error);
     }
